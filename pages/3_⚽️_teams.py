@@ -14,7 +14,7 @@ df_data = st.session_state['data']
 
 # Sidebar filter
 clubes = df_data["Club"].value_counts().index
-club = st.sidebar.selectbox("Clube", clubes)
+club = st.sidebar.selectbox("Club", clubes)
 
 df_filtered = df_data[(df_data["Club"] == club)].set_index("Name")
 
