@@ -1,6 +1,6 @@
 # Fifa data using Streamlit
 
-[See the project live!](https://fifa-2023-angelodias.streamlit.app/players)
+[See the project live!](https://fifa-2023-angelodias.streamlit.app/)
 
 See the overall data for Fifa players and teams in Fifa 2023.
 
