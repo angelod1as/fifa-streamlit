@@ -1,4 +1,3 @@
-import webbrowser
 import streamlit as st
 from get_data import get_data
 
@@ -20,10 +19,8 @@ st.sidebar.markdown(
     """
 )
 
-btn = st.button("View complete dataset on Kaggle")
-if btn:
-    webbrowser.open_new_tab(
-        "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+st.link_button("View complete dataset on Kaggle",
+               "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 
 st.markdown(
     """
